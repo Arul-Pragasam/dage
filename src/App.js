@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={process.env.PUBLIC_URL + 'danger.jpeg'} className="App-logo" alt="danger.jpeg" /> {/* Use the imported image */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This Website is made for Testing Ping Attacks
         </p>
         <a
           className="App-link"
